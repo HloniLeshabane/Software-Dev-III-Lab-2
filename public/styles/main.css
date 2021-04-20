@@ -1,0 +1,176 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+* body{
+    background:#252525;
+    font-family: 'Open Sans';
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.BackGround{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(25, 25, 25);
+    z-index: -2;
+    display: flexbox;
+    position: absolute;
+}
+
+.BallLogo{
+    width: 80px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.logo{
+    
+    width: auto;
+
+}
+
+.Name{
+    color: cornsilk;
+    margin-right: 20px;
+    flex: 1;
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+
+.Nav-Links{
+
+    flex: 1;
+    color: cornsilk;
+    justify-items: space-around;
+    
+}
+    
+
+.links{
+
+    list-style: none;
+}
+
+
+.Nav-Link{
+
+    font-family: 'Open Sans';
+    color: cornsilk;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.Intro{
+    margin-top: 150px;
+    margin-left: 185px;
+    color: cornsilk;
+    width: 40%;
+}
+
+.Introduction{
+    font-size: 40px;
+    font-family: 'Shippori Mincho';
+    display: block;
+}
+
+.Introduction::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: rosybrown;
+}
+
+.IntroductionParagraph{
+    margin-top: 50px;
+    font-family: 'Open Sans';
+
+}
+
+.order-btn{
+    border: 2px solid gray;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 185px;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    border-color: thistle;
+}
+
+.order-btn:hover{
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.interactive{
+    display: flex;
+}
+
+.options-menu{
+    display: grid;
+    margin-top: 150px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+}
+
+.option-menu-item{
+    color: seashell;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    height: 90%;
+}
+
+.menu-item-list-item{
+    
+    justify-self: center;
+    
+}
+
+
+.menu-item-list-item-1{
+    background: brown;
+    display: inline-flex;
+    
+}
+
+.menu-item-list-item-2{
+    background: crimson;
+    display: inline-flex;
+
+}
+
+.menu-item-list-item-3{
+    background: darkolivegreen;
+    display: inline-flex;
+}
+
+.menu-item-list-item-4{
+    background: blueviolet;
+    display: inline-flex;
+}
+
+.imageView{
+    
+    width: 100%;
+}
+
