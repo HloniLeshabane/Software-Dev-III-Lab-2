@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'BlogPostAzura'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_abebffbe80f54af68b71f569bc5318d4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_53091c2f64d243dbabeec6ded0e8449b }}
         package: .
